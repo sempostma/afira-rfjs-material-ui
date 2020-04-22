@@ -3,7 +3,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/styles';
 
-import { ObjectFieldTemplateProps } from 'react-jsonschema-form';
+import { ObjectFieldTemplateProps } from 'afira-react-jsonschema-form';
 
 const useStyles = makeStyles({
   root: {
@@ -20,8 +20,11 @@ const ObjectFieldTemplate = ({
   required,
   uiSchema,
   idSchema,
+  ...rest
 }: ObjectFieldTemplateProps) => {
   const classes = useStyles();
+
+  console.log('rest', rest);
 
   return (
     <>

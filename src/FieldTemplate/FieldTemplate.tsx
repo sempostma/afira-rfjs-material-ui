@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FieldTemplateProps } from 'react-jsonschema-form';
+import { FieldTemplateProps } from 'afira-react-jsonschema-form';
 
 import FormControl from '@material-ui/core/FormControl';
 import FormHelperText from '@material-ui/core/FormHelperText';

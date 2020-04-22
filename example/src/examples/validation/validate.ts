@@ -1,4 +1,4 @@
-import { FormValidation } from 'react-jsonschema-form';
+import { FormValidation } from 'afira-react-jsonschema-form';
 
 const validate = ({ pass1, pass2 }: any, errors: FormValidation) => {
   if (pass1 !== pass2) {

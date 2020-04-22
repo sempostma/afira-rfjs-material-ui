@@ -5,8 +5,8 @@ import Grid from '@material-ui/core/Grid';
 import Slider from '@material-ui/core/Slider';
 import FormLabel from '@material-ui/core/FormLabel';
 
-import { rangeSpec } from 'react-jsonschema-form/lib/utils';
-import { WidgetProps } from 'react-jsonschema-form';
+import { rangeSpec } from 'afira-react-jsonschema-form/lib/utils';
+import { WidgetProps } from 'afira-react-jsonschema-form';
 
 const RangeWidget = ({
   value,

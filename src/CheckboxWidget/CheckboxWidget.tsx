@@ -4,7 +4,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import FormControl from '@material-ui/core/FormControl';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 
-import { WidgetProps } from 'react-jsonschema-form';
+import { WidgetProps } from 'afira-react-jsonschema-form';
 
 const CheckboxWidget = (props: WidgetProps) => {
   const {

@@ -9,7 +9,7 @@ import ErrorIcon from '@material-ui/icons/Error';
 import ListItemText from '@material-ui/core/ListItemText';
 import Paper from '@material-ui/core/Paper';
 
-import { ErrorListProps } from 'react-jsonschema-form';
+import { ErrorListProps } from 'afira-react-jsonschema-form';
 
 const ErrorList = ({ errors }: ErrorListProps) => (
   <Paper elevation={2}>

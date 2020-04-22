@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { WidgetProps } from 'react-jsonschema-form';
+import { WidgetProps } from 'afira-react-jsonschema-form';
 
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';

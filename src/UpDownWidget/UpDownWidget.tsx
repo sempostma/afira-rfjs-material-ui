@@ -4,7 +4,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 
-import { WidgetProps } from 'react-jsonschema-form';
+import { WidgetProps } from 'afira-react-jsonschema-form';
 
 const UpDownWidget = ({
   id,

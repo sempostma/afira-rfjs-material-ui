@@ -5,8 +5,8 @@ import FieldTemplate from '../FieldTemplate';
 import ObjectFieldTemplate from '../ObjectFieldTemplate';
 import Widgets from '../Widgets';
 
-import { ThemeProps } from 'react-jsonschema-form';
-import { getDefaultRegistry } from 'react-jsonschema-form/lib/utils';
+import { ThemeProps } from 'afira-react-jsonschema-form';
+import { getDefaultRegistry } from 'afira-react-jsonschema-form/lib/utils';
 
 const { fields, widgets } = getDefaultRegistry();
 

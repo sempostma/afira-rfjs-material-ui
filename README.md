@@ -97,7 +97,7 @@ yarn add rjsf-material-ui
 ## Usage
 
 ```javascript
-import { withTheme } from 'react-jsonschema-form';
+import { withTheme } from 'afira-react-jsonschema-form';
 import { Theme as MuiTheme } from 'rjsf-material-ui';
 
 const Form = withTheme(MuiTheme);
@@ -154,5 +154,4 @@ Project Link: [https://cybertec-postgresql.github.io/rjsf-material-ui](https://c
 [npm-url]: https://www.npmjs.com/package/rjsf-material-ui
 [npm-dl-shield]: https://img.shields.io/npm/dm/rjsf-material-ui.svg?style=flat-square
 [npm-dl-url]: https://www.npmjs.com/package/rjsf-material-ui
-
 [product-screenshot]: https://raw.githubusercontent.com/cybertec-postgresql/rjsf-material-ui/master/screenshot.png
