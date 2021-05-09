@@ -1113,7 +1113,7 @@
   dependencies:
     jest-diff "^24.3.0"
 
-"@types/json-schema@*", "@types/json-schema@^7.0.3":
+"@types/json-schema@^7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
@@ -1143,14 +1143,6 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.4.tgz#0b58df09a60961dcb77f62d4f1832427513420df"
   integrity sha512-fya9xteU/n90tda0s+FtN5Ym4tbgxpq/hb/Af24dvs6uYnYn+fspaxw5USlw0R8apDNwxsqumdRoCoKitckQqw==
   dependencies:
-    "@types/react" "*"
-
-"@types/react-jsonschema-form@^1.6.2":
-  version "1.6.6"
-  resolved "https://registry.yarnpkg.com/@types/react-jsonschema-form/-/react-jsonschema-form-1.6.6.tgz#c1185e9222c7ef55eb68d9f5124eb42bb3370e0d"
-  integrity sha512-Z3mY9Kij0AFMXsswvEYLm/i+F4aRNVzRjLqAYdX4mxJcpMYJdKxH6+BnT+orXI+i9AoED0XR9DOt7ofcI5JrKQ==
-  dependencies:
-    "@types/json-schema" "*"
     "@types/react" "*"
 
 "@types/react-transition-group@^4.2.0":
@@ -1296,6 +1288,20 @@ acorn@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
   integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+
+afira-react-jsonschema-form@^1.6.1:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/afira-react-jsonschema-form/-/afira-react-jsonschema-form-1.8.2.tgz#35050858fd3187141c2040d9111693b26ea4a077"
+  integrity sha512-4a7Kyf+Jt/6NRx0itlzWX6gbxVXI5i98elPgBRvLV3er2lF7ayJgxTvBBFtghiySji4TlD1QfQeE3RBrVl1Sfw==
+  dependencies:
+    "@babel/runtime-corejs2" "^7.4.5"
+    ajv "^6.7.0"
+    core-js "^2.5.7"
+    lodash "^4.17.15"
+    prop-types "^15.5.8"
+    react-is "^16.8.4"
+    react-lifecycles-compat "^3.0.4"
+    shortid "^2.2.14"
 
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.10.2"
@@ -3411,9 +3417,9 @@ hoist-non-react-statics@^3.2.1:
     react-is "^16.7.0"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
-  integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hosted-git-info@^3.0.0:
   version "3.0.2"
@@ -6001,20 +6007,6 @@ react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
-
-react-jsonschema-form@^1.6.1:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/react-jsonschema-form/-/react-jsonschema-form-1.8.0.tgz#7911d5074628d5300d82c8dccdbb0d66a515713e"
-  integrity sha512-3rZZ1tCG+vtXRXEdX751t5L1c1TUGk1pvSY/4LzBrUo5FlwulnwJpkosE4BqwSRxvfMckP8YoHFQV4KjzaHGgQ==
-  dependencies:
-    "@babel/runtime-corejs2" "^7.4.5"
-    ajv "^6.7.0"
-    core-js "^2.5.7"
-    lodash "^4.17.15"
-    prop-types "^15.5.8"
-    react-is "^16.8.4"
-    react-lifecycles-compat "^3.0.4"
-    shortid "^2.2.14"
 
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
